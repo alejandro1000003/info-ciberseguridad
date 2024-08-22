@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "4f784b3b37781ba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "29831ae555385036",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14b5801053516b6c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Hacking/Linux/21-03-24-Agent Sudo (linux)/TryHackMe CTF Agent Sudo — Walkthrough by Jasper Alblas Medium_files/1 3XXnWwTlN8Rh3PWaaUQ7UQ.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0551e041833f4233",
+    "type": "split",
+    "children": [
+      {
+        "id": "16e205c988af7072",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8cfdc1aae531f1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b3923d5e4a538dad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb538e115903b211",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "84b404ffdad5bc8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a79969997f4d9943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c05ed8c4cad350ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hacking/Linux/21-03-24-Agent Sudo (linux)/TryHackMe CTF Agent Sudo — Walkthrough by Jasper Alblas Medium_files/1 3XXnWwTlN8Rh3PWaaUQ7UQ.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7547c489c7b2cfc0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hacking/Linux/21-03-24-Agent Sudo (linux)/TryHackMe CTF Agent Sudo — Walkthrough by Jasper Alblas Medium_files/1 3XXnWwTlN8Rh3PWaaUQ7UQ.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "adf2f240bdbdfe09",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "63e191427c0725e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hacking/Linux/21-03-24-Agent Sudo (linux)/TryHackMe CTF Agent Sudo — Walkthrough by Jasper Alblas Medium_files/1 3XXnWwTlN8Rh3PWaaUQ7UQ.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "14b5801053516b6c",
+  "lastOpenFiles": [
+    "Hacking/Linux/21-03-24-Agent Sudo (linux)/TryHackMe CTF Agent Sudo — Walkthrough by Jasper Alblas Medium_files/1 2tDjTSZ0AWmZUKys_TkNjg.png"
+  ]
+}

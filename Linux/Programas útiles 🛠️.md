@@ -1,0 +1,23 @@
+---
+tags:
+  - linux
+---
+- **Visual Studio Code**
+- **Menú Whisker**
+- **Thunar  ( Navegar por el sistema de ficheros )**
+- **Chromium**
+- **Catfish ( Busca archivos locales )**
+- **Escritorio xfce**
+- **Xfce panel** 
+- **Git**
+- **MuseScore ( Música, partituras )**
+- **LibreOffice**
+- **Synaptic ( Gestionar paquetes instalados )**
+- **Gestor de tareas**
+- **Python**
+- **Gparted ( Particiones de disco )**
+- **Deepin Screenshot ( Mucho mejor que Recortes de Windows )**
+- **ImageMagick ( Viene con opciones para modificar imagenes )**
+- **BalenaEtcher ( Como USB Universal installer, pero mejor )**
+- **kitty**
+- **Wayland ( Múltiples Pantallas )**

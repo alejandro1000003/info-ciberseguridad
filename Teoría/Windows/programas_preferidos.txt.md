@@ -1,0 +1,2 @@
+- mosttopfriend (gestor visualización ventanas)
+- everything (catfish en windows)

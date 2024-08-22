@@ -1,0 +1,20 @@
+---
+tags:
+  - linux
+---
+
+Para configurar `xdg-open` para que los archivos de texto comunes se abran con NeoVim, puedes usar la utilidad `xdg-mime`. Aquí tienes los pasos:
+
+1. Primero, necesitas asegurarte de que NeoVim esté instalado en tu sistema y que esté disponible en tu PATH.
+
+2. Luego, identifica el tipo MIME de los archivos de texto comunes que deseas abrir con NeoVim. Por lo general, los archivos de texto sin formato tienen el tipo MIME `text/plain`.
+
+3. Utiliza el comando `xdg-mime` para establecer NeoVim como el programa predeterminado para abrir archivos de texto:
+
+```bash
+xdg-mime default nvim.desktop text/plain
+```
+
+En este comando, `nvim.desktop` debe ser reemplazado por la ruta al archivo `.desktop` de NeoVim, que puede variar según tu sistema. Si NeoVim está correctamente instalado, puedes encontrar su archivo `.desktop` en algún lugar como `/usr/share/applications/nvim.desktop` o `/usr/local/share/applications/nvim.desktop`. Si no lo encuentras, puedes crear uno o usar directamente `nvim`.
+
+Una vez que hayas ejecutado este comando, los archivos de texto comunes se abrirán con NeoVim cuando uses `xdg-open` para abrirlos desde la línea de comandos o desde tu gestor de archivos.

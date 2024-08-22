@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiNetwork",
+      "LiFolderHeart"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "Herramientas hacking": "⚒",
+  "Git": "SiGit",
+  "Docker": "SiDocker",
+  "Curriculum y certificados": "LiGraduationCap",
+  "Linux": "SiLinux",
+  "Programación": "LiCode2",
+  "Burp Suite BSCP": "SiPortswigger",
+  "Teoría": "LiBookText",
+  "Tryhackme": "SiTryhackme",
+  "Pizarras": "LiPencil",
+  "Plantillas": "LiFolderHeart",
+  "Teoría/Vulnerabilidades": "⚠",
+  "Teoría/Red": "LiNetwork"
+}

@@ -1,0 +1,103 @@
+---
+tags:
+  - cheatsheet
+---
+
+## HTTP
+
+Ejecutar un servidor web básico en una línea de terminal para Python 3, PHP y Ruby:
+
+Python 3:
+```bash
+python3 -m http.server 8000
+```
+
+PHP:
+```bash
+php -S localhost:8000
+```
+
+Ruby:
+```bash
+ruby -rwebrick -e 'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
+```
+
+Estas líneas de terminal iniciarán un servidor web en el puerto 8000 para cada uno de los lenguajes respectivos: Python 3, PHP y Ruby.
+
+
+Aquí tienes los comandos `wget` y `curl` para obtener un recurso HTTP en una sola línea:
+
+Para `wget`:
+```bash
+wget <URL>
+```
+
+Por ejemplo:
+```bash
+wget https://www.ejemplo.com/archivo.txt
+```
+
+Para `curl`:
+```bash
+curl -O <URL>
+```
+
+Por ejemplo:
+```bash
+curl -O https://www.ejemplo.com/archivo.txt
+```
+
+Ambos comandos descargarán el recurso especificado por `<URL>`. `wget` descargará el archivo y lo guardará con el mismo nombre, mientras que `curl -O` descargará el archivo y lo guardará con el nombre del archivo en la URL.
+
+
+## HTTPS
+
+## TCP/UDP
+
+**Server**
+cat \<archivo> | nc -nvlp
+nc -nvlp
+socat tcp-listen
+socat udp-listen
+
+**Cliente**
+nc -nv [-u] \<servidor> \<puerto> > \<archivo>
+cat > \<archivo> \< /dev/tcp/\<servidor>/\<puerto>
+socat tcp:\<servidor>:\<puerto> file:\<archivo>, creat[,trunc]
+socat udp:
+
+## SSL/TLS
+## SMB
+server (linux)
+impacket-smbserver 
+server (windows)
+cliente (linux)
+smbclient -L
+smbclient //\<ip>/\<share>
+cliente (windows)
+net view ...
+copy ...
+net use
+
+## FTP
+**Servidor**
+python
+**Cliente (linux)** 
+ftp 
+**Cliente (windows)**
+ftp
+
+Una vez dentro debemos descargar los archivos con get o mget (para varios archivos). En el caso de intentar descargar varios archivos a la vez, usando mget, podemos evitar tener que confirmar cada archivo con el comando prompt off.
+
+## SSH
+podemos leer el contenido de un archivo y redireccionarlo a un archivo local.
+
+OpenSSH trae consigo la utilidad scp, la cual permite copiar archivos (o directorios -r) remotamente mediante un canal cifrado
+
+Si esto ha sido poco, OpenSSH también trae un servidor FTP con cifrado (sftp)
+
+## ICMP 
+Es un protocolo para conocer el estado de red. Podemos aprovechar la propiedad que la carga (payload) que se recibe en un echo-request, se transmite en un echo-reply
+
+Para transferir un archivo deberíamos dividirlo en pequeños trozos y recomponerlo en el destino. ¿Por qué molestar se en hacer todo esto habiendo métodos más sencillos? Porque debido a que el único propósito de un echo-request es saber si hay más conectividad, pasaría más desapercibido.
+
